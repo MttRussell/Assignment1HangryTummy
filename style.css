@@ -13,9 +13,29 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+header {
+    height: 100vh;
+    padding: 50px 0;
+    background: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
 h1 {
     font-size: 146.4px;
     line-height: 120px;
+    color: #e75605;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 h3 {
@@ -23,4 +43,21 @@ font-weight: bold;
 color: #e75605;
 font-size: 42px;
 text-align: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.home {
+    color: #e75605;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
